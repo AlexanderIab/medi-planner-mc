@@ -1,0 +1,6 @@
+rootProject.name = 'medi-planner-mc'
+
+includeBuild 'eureka-server'
+includeBuild 'config-server'
+includeBuild 'gateway'
+includeBuild 'planner'

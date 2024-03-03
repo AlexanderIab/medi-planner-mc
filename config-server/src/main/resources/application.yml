@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AlexanderIab/planner-config-mc
+          basedir: file://C:/git-config-planner
+          clone-on-start: true
+          username: AlexanderIab
+          password: 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
+          default-label: main
