@@ -11,5 +11,5 @@ spring:
           basedir: file://C:/git-config-planner
           clone-on-start: true
           username: AlexanderIab
-          password: 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
+          password: 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
           default-label: main
